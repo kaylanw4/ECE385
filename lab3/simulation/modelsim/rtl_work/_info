@@ -1,0 +1,263 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kayla/OneDrive/Documents/ECE385/lab3/simulation/modelsim
+vadder2
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1664140503
+!i10b 1
+!s100 4Z6m94LC^jm?OQBQaGHD`3
+I:mSA:m5klbG7cjALi:U_j3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder2_sv_unit
+S1
+R0
+w1664138570
+8C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/adder2.sv
+FC:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/adder2.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1664140503.000000
+!s107 C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/adder2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20|C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/adder2.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20
+Z8 tCvgOpt 0
+vCLA_4
+R1
+R2
+!i10b 1
+!s100 UL0fmn_<VXhV1;J8FOi020
+IMgda8^?l;l[_Qg4S>cNnM2
+R3
+Z9 !s105 lookahead_adder_sv_unit
+S1
+R0
+Z10 w1664138123
+Z11 8C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/lookahead_adder.sv
+Z12 FC:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/lookahead_adder.sv
+L0 36
+R4
+r1
+!s85 0
+31
+R5
+Z13 !s107 C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/lookahead_adder.sv|
+Z14 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20|C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/lookahead_adder.sv|
+!i113 1
+R6
+R7
+R8
+n@c@l@a_4
+vCLA_logic
+R1
+R2
+!i10b 1
+!s100 za_z8`GX]z=`0Z<Aal=;;0
+I8GVFPQ[[UAXZ9zXm3b6Zn0
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 13
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+R8
+n@c@l@a_logic
+vcontrol
+R1
+R2
+!i10b 1
+!s100 4^T<MW:^Hhf;SGQ2_b=Kk3
+IM`i50l0_ka48SEaYj?WoP3
+R3
+!s105 control_sv_unit
+S1
+R0
+Z15 w1663111230
+8C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/control.sv
+FC:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/control.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20|C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/control.sv|
+!i113 1
+R6
+R7
+R8
+vfull_adder_l
+R1
+R2
+!i10b 1
+!s100 KkBc[P@X4D;JWWe2[V1cX1
+IK]=Ug1@FXJII0n7W2VelY0
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+R8
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 F7dDJLKONLDlAhT4ll@HA3
+Iij0RJfBQfChN?VdG^Saaf3
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R15
+8C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/HexDriver.sv
+FC:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/HexDriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20|C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/HexDriver.sv|
+!i113 1
+R6
+R7
+R8
+n@hex@driver
+vlookahead_adder
+R1
+R2
+!i10b 1
+!s100 ;]OE4ESD^E8n3dZHMK[E00
+I10H8Rg?cIg;5zFO>IL4mz2
+R3
+R9
+S1
+R0
+R10
+R11
+R12
+L0 61
+R4
+r1
+!s85 0
+31
+R5
+R13
+R14
+!i113 1
+R6
+R7
+R8
+vreg_17
+R1
+R2
+!i10b 1
+!s100 TzXnY51aIaIZFVKcdA[Wn1
+IHDUJ`[g8JRFMI5fdH<z=40
+R3
+!s105 reg_17_sv_unit
+S1
+R0
+R15
+8C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/reg_17.sv
+FC:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/reg_17.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/reg_17.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20|C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/reg_17.sv|
+!i113 1
+R6
+R7
+R8
+vrouter
+R1
+!s110 1664140502
+!i10b 1
+!s100 0oS5^3aI5<4lR1GZZPnaj2
+IDdKSIOECkfe;XQWBk[6QK0
+R3
+!s105 router_sv_unit
+S1
+R0
+R15
+8C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/router.sv
+FC:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/router.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1664140502.000000
+!s107 C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20|C:/Users/kayla/Downloads/385_lab4_adders_provided_fa20/router.sv|
+!i113 1
+R6
+R7
+R8
+vtestbench
+R1
+R2
+!i10b 1
+!s100 h;OG@V]9HJ5QDQ@YfV8^_3
+ITdOEG5D=@V9_nlJPcgECP1
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1664140473
+8C:/Users/kayla/OneDrive/Documents/ECE385/lab3/../../../../Downloads/385_lab4_adders_provided_fa20/testbench.sv
+FC:/Users/kayla/OneDrive/Documents/ECE385/lab3/../../../../Downloads/385_lab4_adders_provided_fa20/testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/kayla/OneDrive/Documents/ECE385/lab3/../../../../Downloads/385_lab4_adders_provided_fa20/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab3/../../../../Downloads/385_lab4_adders_provided_fa20|C:/Users/kayla/OneDrive/Documents/ECE385/lab3/../../../../Downloads/385_lab4_adders_provided_fa20/testbench.sv|
+!i113 1
+R6
+!s92 -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab3/../../../../Downloads/385_lab4_adders_provided_fa20
+R8

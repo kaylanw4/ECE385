@@ -1,0 +1,814 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:21:40 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv 
+# -- Compiling module router
+# 
+# Top level modules:
+# 	router
+# End time: 15:21:40 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:21:40 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv 
+# -- Compiling module full_adder
+# -- Compiling module ripple_adder
+# -- Compiling module mux2
+# -- Compiling module addition
+# -- Compiling module subtract
+# 
+# Top level modules:
+# 	ripple_adder
+# End time: 15:21:40 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:21:40 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv 
+# -- Compiling module reg_8
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_8
+# 	reg_1
+# End time: 15:21:40 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:21:40 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 15:21:40 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:21:40 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 15:21:40 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:21:40 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 15:21:40 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:21:40 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:21:40 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:21:41 on Oct 01,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.multiplier
+# Loading work.control
+# Loading work.reg_8
+# Loading work.reg_1
+# Loading work.router
+# Loading work.ripple_adder
+# Loading work.addition
+# Loading work.full_adder
+# Loading work.subtract
+# Loading work.mux2
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv(32): [PCDPC] - Port size (16) does not match connection size (8) for port 'A_In'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv(34): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(74): [PCDPC] - Port size (1) does not match connection size (32) for port 'z'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdf/FA0 File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3839) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(29): Variable '/testbench/asdf/adder/c_out', driven via a port connection, is multiply driven. See C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdfasdf File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'z'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdfasdf/FA9 File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2000 ns
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(137): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(129): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(121): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(113): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(105): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(98): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(90): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(82): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(74): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(50): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(42): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(35): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(19): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv(22): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/run
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(50): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(42): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(35): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(19): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv(22): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/asdf/run
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(137): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(129): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(121): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(113): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(105): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(98): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(90): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(82): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(74): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+do lab4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:26 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv 
+# -- Compiling module router
+# 
+# Top level modules:
+# 	router
+# End time: 15:28:26 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:26 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv 
+# -- Compiling module full_adder
+# -- Compiling module ripple_adder
+# -- Compiling module mux2
+# -- Compiling module addition
+# -- Compiling module subtract
+# 
+# Top level modules:
+# 	ripple_adder
+# End time: 15:28:26 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:26 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv 
+# -- Compiling module reg_8
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_8
+# 	reg_1
+# End time: 15:28:26 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:26 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 15:28:26 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:26 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 15:28:26 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:26 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 15:28:26 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:26 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:28:26 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 15:28:27 on Oct 01,2022, Elapsed time: 0:06:46
+# Errors: 0, Warnings: 45
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:28:27 on Oct 01,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.multiplier
+# Loading work.control
+# Loading work.reg_8
+# Loading work.reg_1
+# Loading work.router
+# Loading work.ripple_adder
+# Loading work.addition
+# Loading work.full_adder
+# Loading work.subtract
+# Loading work.mux2
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv(32): [PCDPC] - Port size (16) does not match connection size (8) for port 'A_In'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv(34): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(74): [PCDPC] - Port size (1) does not match connection size (32) for port 'z'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdf/FA0 File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3839) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(29): Variable '/testbench/asdf/adder/c_out', driven via a port connection, is multiply driven. See C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdfasdf File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'z'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdfasdf/FA9 File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2000 ns
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(137): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(129): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(121): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(113): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(105): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(98): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(90): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(82): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(74): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(50): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(42): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(35): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(19): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv(22): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/run
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(50): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(42): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(35): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(19): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv(22): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/asdf/run
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(137): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(129): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(121): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(113): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(105): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(98): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(90): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(82): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(74): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+do lab4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:30:28 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv 
+# -- Compiling module router
+# 
+# Top level modules:
+# 	router
+# End time: 15:30:28 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:30:28 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv 
+# -- Compiling module full_adder
+# -- Compiling module ripple_adder
+# -- Compiling module mux2
+# -- Compiling module addition
+# -- Compiling module subtract
+# 
+# Top level modules:
+# 	ripple_adder
+# End time: 15:30:28 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:30:28 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv 
+# -- Compiling module reg_8
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_8
+# 	reg_1
+# End time: 15:30:28 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:30:28 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 15:30:28 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:30:28 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 15:30:28 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:30:28 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 15:30:28 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:30:28 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:30:28 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 15:30:29 on Oct 01,2022, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 45
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:30:29 on Oct 01,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.multiplier
+# Loading work.control
+# Loading work.reg_8
+# Loading work.reg_1
+# Loading work.router
+# Loading work.ripple_adder
+# Loading work.addition
+# Loading work.full_adder
+# Loading work.subtract
+# Loading work.mux2
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv(32): [PCDPC] - Port size (16) does not match connection size (8) for port 'A_In'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv(34): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(74): [PCDPC] - Port size (1) does not match connection size (32) for port 'z'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdf/FA0 File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3839) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(29): Variable '/testbench/asdf/adder/c_out', driven via a port connection, is multiply driven. See C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdfasdf File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'z'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdfasdf/FA9 File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2000 ns
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(137): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(129): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(121): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(113): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(105): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(98): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(90): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(82): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(74): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(50): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(42): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(35): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(19): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv(22): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/run
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(50): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(42): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(35): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(19): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv(22): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/asdf/run
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(137): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(129): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(121): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(113): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(105): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(98): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(90): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(82): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(74): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+do lab4_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:34:50 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv 
+# -- Compiling module router
+# 
+# Top level modules:
+# 	router
+# End time: 15:34:50 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:34:51 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv 
+# -- Compiling module full_adder
+# -- Compiling module ripple_adder
+# -- Compiling module mux2
+# -- Compiling module addition
+# -- Compiling module subtract
+# 
+# Top level modules:
+# 	ripple_adder
+# End time: 15:34:51 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:34:51 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv 
+# -- Compiling module reg_8
+# -- Compiling module reg_1
+# 
+# Top level modules:
+# 	reg_8
+# 	reg_1
+# End time: 15:34:51 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:34:51 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 15:34:51 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:34:51 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 15:34:51 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:34:51 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 15:34:51 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4 {C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:34:51 on Oct 01,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4" C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:34:51 on Oct 01,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 15:34:52 on Oct 01,2022, Elapsed time: 0:04:23
+# Errors: 0, Warnings: 45
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 15:34:52 on Oct 01,2022
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.multiplier
+# Loading work.control
+# Loading work.reg_8
+# Loading work.reg_1
+# Loading work.router
+# Loading work.ripple_adder
+# Loading work.addition
+# Loading work.full_adder
+# Loading work.subtract
+# Loading work.mux2
+# Loading work.HexDriver
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv(32): [PCDPC] - Port size (16) does not match connection size (8) for port 'A_In'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv(34): [PCDPC] - Port size (1) does not match connection size (32) for port 'cin'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(74): [PCDPC] - Port size (1) does not match connection size (32) for port 'z'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdf/FA0 File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3839) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(29): Variable '/testbench/asdf/adder/c_out', driven via a port connection, is multiply driven. See C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdfasdf File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# ** Warning: (vsim-3015) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(103): [PCDPC] - Port size (1) does not match connection size (32) for port 'z'. The port definition is at: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/adder/asdfasdf/FA9 File: C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 2000 ns
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(137): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(129): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(121): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(113): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(105): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(98): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(90): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(82): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(74): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(50): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(42): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(35): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(19): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv(22): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/asdf/run
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(50): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(42): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(35): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(19): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv(22): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/asdf/run
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(66): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(58): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(27): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(11): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 1  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(137): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(129): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(121): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(113): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(105): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(98): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(90): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(82): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# ** Warning: (vsim-8315) C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv(74): No condition is true in the unique/priority if/case statement.
+#    Time: 20 ns  Iteration: 3  Instance: /testbench/asdf/route
+# End time: 15:47:08 on Oct 01,2022, Elapsed time: 0:12:16
+# Errors: 0, Warnings: 45

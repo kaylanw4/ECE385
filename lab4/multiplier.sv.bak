@@ -1,0 +1,14 @@
+module multiplier (
+	input logic [7:0] SW,
+	input logic Clk, Reset_Load_Clear, Run,
+	output logic [6:0] HEX1, HEX0, HEX3, HEX2, 
+	output logic [7:0] Aval, Bval,
+	output logic Xval
+);
+
+
+
+
+
+
+endmodule 

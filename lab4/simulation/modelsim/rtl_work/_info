@@ -1,0 +1,311 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kayla/OneDrive/Documents/ECE385/lab4/simulation/modelsim
+vaddition
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1664656491
+!i10b 1
+!s100 L9z]d0Ol;JNDC5_46T?A12
+IQmTBOiAi8`HYPTjjPjU3[2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 ripple_adder_sv_unit
+S1
+R0
+Z5 w1663914228
+Z6 8C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+Z7 FC:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv
+L0 58
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1664656491.000000
+Z10 !s107 C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4|C:/Users/kayla/OneDrive/Documents/ECE385/lab4/ripple_adder.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4
+Z14 tCvgOpt 0
+vcontrol
+R1
+R2
+!i10b 1
+!s100 K8;VOjV?i@alISL7Q=XW<0
+IH_lcJHbzO1Z=EVYZmO=a@3
+R3
+!s105 control_sv_unit
+S1
+R0
+w1663917864
+8C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv
+FC:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4|C:/Users/kayla/OneDrive/Documents/ECE385/lab4/control.sv|
+!i113 1
+R12
+R13
+R14
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 c00A2F8nb0N4ZXGd`bQ5J2
+I>JEHziEPhDj?`jn4Re7z>2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 F7dDJLKONLDlAhT4ll@HA3
+ILz7G7IJNNNYcPM_eDl>l[3
+R3
+!s105 Hex_driver_sv_unit
+S1
+R0
+w1663516336
+8C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv
+FC:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4|C:/Users/kayla/OneDrive/Documents/ECE385/lab4/Hex_driver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vmultiplier
+R1
+R2
+!i10b 1
+!s100 X4fb7JYJJOHA28iSfG06N1
+I7X9MVgBFkoOQ@FAQF82bn1
+R3
+!s105 multiplier_sv_unit
+S1
+R0
+w1663917789
+8C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv
+FC:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4|C:/Users/kayla/OneDrive/Documents/ECE385/lab4/multiplier.sv|
+!i113 1
+R12
+R13
+R14
+vmux2
+R1
+R2
+!i10b 1
+!s100 kSg2iC8e3_;V^ND4ePbnB2
+IKWMQWdOS<:3=k5:Wj8;6E2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 40
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vreg_1
+R1
+R2
+!i10b 1
+!s100 ETfT>Z`5D7@AOzeZ8H;]J1
+INR`>5dT0YCdS=@M:XkP>D2
+R3
+Z15 !s105 reg_17_sv_unit
+S1
+R0
+Z16 w1663945214
+Z17 8C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv
+Z18 FC:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv
+L0 29
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4|C:/Users/kayla/OneDrive/Documents/ECE385/lab4/reg_17.sv|
+!i113 1
+R12
+R13
+R14
+vreg_8
+R1
+R2
+!i10b 1
+!s100 VN8NoG6cR2?LE5ao23>F63
+IB[Xnaz81G>T55UFBfbeZ=3
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+vripple_adder
+R1
+R2
+!i10b 1
+!s100 2;0T^ca=XHClJ[=:3RMlZ1
+IaKcHFhA0=m_7jfFlC11hN2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 11
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vrouter
+R1
+!s110 1664656490
+!i10b 1
+!s100 dBgZz?kP^2lCW`o>ia?gm1
+IPO?oO>l_H?DmjSU4J2T4N1
+R3
+!s105 router_sv_unit
+S1
+R0
+w1663901184
+8C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv
+FC:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1664656490.000000
+!s107 C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4|C:/Users/kayla/OneDrive/Documents/ECE385/lab4/router.sv|
+!i113 1
+R12
+R13
+R14
+vsubtract
+R1
+R2
+!i10b 1
+!s100 HP=Hfe12PPR^Gigl_3GTD1
+ISTGQK8zLkUgHWkh`8AdTk0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 87
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R2
+!i10b 1
+!s100 GjGZ7bWRFaBCIX68^iUjd0
+I@O^K`@i]R[5:^g85U0Dog1
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1664656473
+8C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv
+FC:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/kayla/OneDrive/Documents/ECE385/lab4|C:/Users/kayla/OneDrive/Documents/ECE385/lab4/testbench.sv|
+!i113 1
+R12
+R13
+R14

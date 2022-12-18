@@ -1,0 +1,28 @@
+module multiply ( 
+	input logic [7:0] B, S,
+	input logic X, 
+	output logic [7:0] A,
+	
+);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+endmodule
